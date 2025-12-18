@@ -13,7 +13,7 @@ Open `index.html` in your browser and provide the following parameters as URL se
 - `speiseplanNr`
 
 Example:
-```
+```url
 index.html?requestUrl=...&referrerUrl=...&mandantId=...&speiseplanNr=...
 ```
 
