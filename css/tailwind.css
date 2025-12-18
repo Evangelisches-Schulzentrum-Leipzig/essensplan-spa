@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+body {
+    @apply bg-[#2f3855] text-white text-[36px] leading-normal font-semibold p-2;
+    font-family: "Montserrat"
+}
+input[type=checkbox] {
+    @apply rounded
+}
+
+h1 {
+    @apply text-6xl text-white mb-6 text-center
+}
+#menues-container {
+    @apply flex flex-col gap-4
+}
+.menue-item {
+    @apply bg-[#038AC8] p-6 rounded-2xl w-full flex flex-col gap-y-6
+}
+.menue-item h2 {
+    @apply bg-[#FCDB66] text-black w-fit px-4 py-2 rounded-xl
+}
+.menue-item p {
+    @apply text-white
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #505050 transparent;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #505050;
+    border-radius: 10px;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+  }
+  *::-webkit-scrollbar-thumb:active {
+    background: #333333;
+  }
+  *::-webkit-scrollbar-button {
+    width: 7px;
+    height: 7px;
+  }
