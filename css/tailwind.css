@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-    @apply bg-[#2f3855] text-white text-[36px] leading-normal font-semibold p-2;
+    @apply bg-[#2f3855] text-white text-xl leading-snug font-semibold;
     font-family: "Montserrat"
 }
 input[type=checkbox] {
@@ -9,16 +9,16 @@ input[type=checkbox] {
 }
 
 h1 {
-    @apply text-6xl text-white mb-6 text-center
+    @apply text-2xl text-white mb-3 text-center
 }
 #menues-container {
-    @apply flex flex-col gap-4
+    @apply flex flex-col gap-2
 }
 .menue-item {
-    @apply bg-[#038AC8] p-6 rounded-2xl w-full flex flex-col gap-y-6
+    @apply bg-[#038AC8] p-4 rounded-2xl w-full flex flex-col gap-y-2
 }
 .menue-item h2 {
-    @apply bg-[#FCDB66] text-black w-fit px-4 py-2 rounded-xl
+    @apply bg-[#FCDB66] text-black w-fit px-2 py-1 rounded-xl
 }
 .menue-item p {
     @apply text-white
